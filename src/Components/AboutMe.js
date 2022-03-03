@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import image from "../img/saeed.JPG";
-const About_Me = () => {
+const AboutMe = () => {
   return (
     <div className="about-me">
       <div className="photo">
@@ -25,4 +25,4 @@ const About_Me = () => {
   );
 };
 
-export default About_Me;
+export default AboutMe;

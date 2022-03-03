@@ -1,0 +1,20 @@
+.about-me {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.photo > img {
+  height: 550px;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 400px;
+  border: 2px solid #ffb400;
+  border-radius: 10px;
+}
+
+.about-me-text {
+  color: white;
+  margin: 20px 50px;
+  margin-top: 20px;
+}

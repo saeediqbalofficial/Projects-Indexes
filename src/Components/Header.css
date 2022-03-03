@@ -1,0 +1,63 @@
+header {
+  background-color: black;
+  width: 100vw;
+  /* padding-top: 5vh;
+  padding-bottom: 5vh; */
+}
+
+.header-items {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* .site-title,
+.logo,
+.nav-menu {
+  border: 1px solid red;
+} */
+
+.logo {
+  margin-right: auto;
+  margin-left: 05px;
+  font-family: "Hanalei Fill", cursive;
+}
+.site-title {
+  margin-left: 20px;
+  font-family: "Hanalei Fill", cursive;
+  /* font-family: 'Poppins', sans-serif; */
+  font-size: 1.5rem;
+}
+.nav-menu {
+  margin-left: auto;
+}
+
+.nav-menu > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-menu > ul > li {
+  margin: 10px 20px;
+  color: white;
+  list-style-type: none;
+
+  font-family: "Hanalei Fill", cursive;
+}
+.nav-menu > ul > li > a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.site-title:hover,
+.nav-menu > ul > li > a:hover {
+  color: #ffb400;
+}
+
+.nav-menu > ul > li > a:active {
+  color: #ffb400;
+}
